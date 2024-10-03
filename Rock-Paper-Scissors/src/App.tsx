@@ -1,11 +1,10 @@
 import "./App.css";
+import RockPaperScissors from "./components/RockPaperScissors";
 
-function App() {
+export default function App() {
   return (
     <>
-      <h1>Proba</h1>
+      <RockPaperScissors />
     </>
   );
 }
-
-export default App;
