@@ -10,8 +10,18 @@
 html {
   box-sizing: border-box;
   background: hsl(214, 47%, 23%);
+  font-family: 'Barlow Semi Condensed';
+  font-weight: 600;
+  text-transform: uppercase;
 }
 
 body, input, button, textarea {
   font: inherit;
+}
+
+img {
+  display: block;
+  width: 100%;
+  /* height: auto; */
+  height: 100%;
 }

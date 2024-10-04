@@ -1,0 +1,89 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.result-logo-game-area-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10em;
+}
+
+.result-and-logo-container {
+    display: flex;
+    gap: 20em;
+    padding: 1em 1.5em;
+    border: 3px solid hsl(217, 16%, 45%);
+    border-radius: 1em;
+    font-weight: 600
+}
+
+.score-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1em 3em;
+    background: white;
+    color: hsl(229, 64%, 46%);
+    border-radius: 0.5em;
+}
+
+.result {
+    font-size: 4em;
+    font-weight: 700;
+    color: hsl(229, 25%, 31%)
+}
+
+.game-area {
+    display: flex;
+    justify-content: center;
+}
+
+.triangle-container {
+    position: relative;
+    width: 50%;
+}
+
+.circle {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    width: 250px;             
+    height: 250px; 
+    border-radius: 50%;    
+  }
+
+.circle img {
+    width: 60%;
+    height: 60%;
+}
+
+.paper {
+    border: 1.5em solid hsl(230, 89%, 62%);
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -50%);
+    border: 1.5em solid hsl(230, 89%, 62%);
+}
+
+.scissors {
+    top: 0;              
+    right: 0;          
+    transform: translate(50%, -50%);
+    border: 1.5em solid hsl(39, 89%, 49%)
+}
+
+.rock {
+    top: 100%;            
+    right: 50%;               
+    transform: translate(50%, -50%);
+    border: 1.5em solid hsl(349, 71%, 52%)
+}
+
+
+
