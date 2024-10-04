@@ -1,10 +1,24 @@
 import styles from "./Game.module.css";
 import useGetChoice from "../../hooks/useGetChoice";
 import { useGameContext } from "../../hooks/useGameContext";
+import React from "react";
 
 export default function Game() {
   const { userChoice, computerChoice, winner, handleChoice, handleReset } =
     useGameContext();
+  const [showChoices, setShowChoices] = React.useState(false);
+  //TODO: да го направя за 5 секунди да се покаже кой, какво е избрал и след това да
+  // Изчезва и показва кой е победител + бутон за ресет и горе Score Се променя.
+
+  React.useEffect(() => {
+    if (winner !== "") {
+      setShowChoices(true);
+      const timer = setTimeout(() => {
+        setShowChoices(false);
+      }, 5000);
+      return () => clearTimeout(timer);
+    }
+  }, [winner]);
 
   return (
     <article className={styles["game-area"]}>
