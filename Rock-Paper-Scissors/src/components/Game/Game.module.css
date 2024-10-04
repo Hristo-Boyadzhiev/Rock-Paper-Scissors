@@ -26,7 +26,6 @@
 }
 
 .paper {
-    border: 1.5em solid hsl(230, 89%, 62%);
     top: 0;
     left: 0;
     transform: translate(-50%, -50%);
@@ -45,4 +44,42 @@
     right: 50%;               
     transform: translate(50%, -50%);
     border: 1.5em solid hsl(349, 71%, 52%)
+}
+
+.choices {
+    display: flex;
+    gap: 3em
+}
+
+.reset-button {
+    cursor: pointer;   
+    text-transform: uppercase;
+    background: hsl(214, 47%, 23%);
+    padding: 0.5em 2em;
+    border: 3px solid lightgray;
+    color: lightgray;
+    border-radius: 0.5em;
+    font-weight: 600;
+    transition: 0.3s ease, color 0.3s ease; 
+}
+
+.reset-button:hover {
+    background: lightgray;
+    color:hsl(214, 47%, 23%);
+}
+
+.game-info {
+    color: lightgray
+}
+
+.header {
+    text-align: center;
+}
+
+.choice {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3em;
+    border: 1px solid yellowgreen
 }
