@@ -1,0 +1,14 @@
+.rules-section {
+    align-self: flex-end;
+}
+
+.rules-button {
+    cursor: pointer;   
+    text-transform: uppercase;
+    background: hsl(214, 47%, 23%);
+    padding: 0.5em 2em;
+    border: 3px solid lightgray;
+    color: lightgray;
+    border-radius: 0.5em;
+    font-weight: 600
+}

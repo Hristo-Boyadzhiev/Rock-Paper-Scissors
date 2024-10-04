@@ -1,105 +1,27 @@
-.main-container {
+.container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 12em;
+    justify-content: space-between;
+    padding: 3em 2em 0.5em 0;
     height: 100vh;
 }
 
-.result-logo-game-area-container {
+.main-container {
     display: flex;
     flex-direction: column;
-    gap: 13em;
-}
-
-.result-and-logo-container {
-    display: flex;
-    gap: 20em;
-    padding: 1em 1.5em;
-    border: 3px solid hsl(217, 16%, 45%);
-    border-radius: 1em;
-    font-weight: 600
-}
-
-.score-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 1em 3em;
-    background: white;
-    color: hsl(229, 64%, 46%);
-    border-radius: 0.5em;
-}
-
-.result {
-    font-size: 4em;
-    font-weight: 700;
-    color: hsl(229, 25%, 31%)
-}
-
-.game-area {
-    display: flex;
-    justify-content: center;
-}
-
-.triangle-container {
-    position: relative;
-    width: 50%;
-}
-
-.circle {
-    position: absolute;
-    display: flex;
-    justify-content: center;
     align-items: center;
-    background: white;
-    width: 250px;             
-    height: 250px; 
-    border-radius: 50%;    
-  }
-
-.circle img {
-    width: 60%;
-    height: 60%;
+    gap: 11em;
 }
 
-.paper {
-    border: 1.5em solid hsl(230, 89%, 62%);
-    top: 0;
-    left: 0;
-    transform: translate(-50%, -50%);
-    border: 1.5em solid hsl(230, 89%, 62%);
+.header-and-game-container {
+    display: flex;
+    flex-direction: column;
+    gap: 12em;
 }
 
-.scissors {
-    top: 0;              
-    right: 0;          
-    transform: translate(50%, -50%);
-    border: 1.5em solid hsl(39, 89%, 49%)
-}
 
-.rock {
-    top: 100%;            
-    right: 50%;               
-    transform: translate(50%, -50%);
-    border: 1.5em solid hsl(349, 71%, 52%)
-}
 
-.rules-section {
-    align-self: flex-end;
-    margin-right: 2em;
-}
 
-.rules-button {
-    text-transform: uppercase;
-    background: hsl(214, 47%, 23%);
-    padding: 0.5em 2em;
-    border: 3px solid lightgray;
-    color: lightgray;
-    border-radius: 0.5em;
-    font-weight: 600
-}
 
 
 
