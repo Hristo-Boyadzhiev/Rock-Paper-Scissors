@@ -3,13 +3,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 12em;
     height: 100vh;
 }
 
 .result-logo-game-area-container {
     display: flex;
     flex-direction: column;
-    gap: 10em;
+    gap: 13em;
 }
 
 .result-and-logo-container {
@@ -83,6 +84,21 @@
     right: 50%;               
     transform: translate(50%, -50%);
     border: 1.5em solid hsl(349, 71%, 52%)
+}
+
+.rules-section {
+    align-self: flex-end;
+    margin-right: 2em;
+}
+
+.rules-button {
+    text-transform: uppercase;
+    background: hsl(214, 47%, 23%);
+    padding: 0.5em 2em;
+    border: 3px solid lightgray;
+    color: lightgray;
+    border-radius: 0.5em;
+    font-weight: 600
 }
 
 
