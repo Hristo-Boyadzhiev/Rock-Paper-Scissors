@@ -9,9 +9,12 @@ interface GameContextType {
   computerChoice: Choice | "";
   winner: Winner | "";
   score: number;
+  showRules: boolean;
   handleChoice: (choice: Choice) => void;
   handleNewGame: () => void;
   handleReset: () => void;
+  handleRules: () => void;
+  handleBack: () => void;
 }
 
 export const GameContext = createContext<GameContextType | undefined>(
@@ -25,6 +28,7 @@ export const GameProvider: React.FC<{ children: ReactNode }> = ({
   const [computerChoice, setComputerChoice] = React.useState<Choice | "">("");
   const [winner, setWinner] = React.useState<Winner | "">("");
   const [score, setScore] = React.useState(0);
+  const [showRules, setShowRules] = React.useState(false);
 
   React.useEffect(() => {
     if (userChoice && computerChoice) {
@@ -48,6 +52,12 @@ export const GameProvider: React.FC<{ children: ReactNode }> = ({
     return () => clearTimeout(timer);
   }
 
+  function handleNewGame() {
+    setUserChoice("");
+    setComputerChoice("");
+    setWinner("");
+  }
+
   function handleReset() {
     setUserChoice("");
     setComputerChoice("");
@@ -55,10 +65,12 @@ export const GameProvider: React.FC<{ children: ReactNode }> = ({
     setScore(0);
   }
 
-  function handleNewGame() {
-    setUserChoice("");
-    setComputerChoice("");
-    setWinner("");
+  function handleRules() {
+    setShowRules(true);
+  }
+
+  function handleBack() {
+    setShowRules(false);
   }
 
   return (
@@ -68,9 +80,12 @@ export const GameProvider: React.FC<{ children: ReactNode }> = ({
         computerChoice,
         winner,
         score,
+        showRules,
         handleChoice,
         handleNewGame,
         handleReset,
+        handleRules,
+        handleBack,
       }}
     >
       {children}

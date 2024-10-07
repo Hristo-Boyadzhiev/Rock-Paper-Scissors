@@ -5,3 +5,31 @@
     padding-top: 3em;
     height: 100vh;
 }
+
+.main-container {
+    flex-grow: 1;
+ }
+
+.rules {
+    cursor: pointer;   
+    text-transform: uppercase;
+    background: hsl(214, 47%, 23%);
+    padding: 0.5em 2em;
+    border: 3px solid #d3d3d3;
+    color: lightgray;
+    border-radius: 0.5em;
+    font-weight: 600;
+    transition: 0.3s ease, color 0.3s ease; 
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.rules:hover {
+    background: lightgray;
+    color:hsl(214, 47%, 23%);
+}
+
+.show-rules {
+    display: flex;
+    align-items: center;
+}
