@@ -1,7 +1,7 @@
-import { Choice } from "../types/Choice";
-import styles from "./useGetChoice.module.css";
+import { Choice } from "../../../../types/Choice";
+import styles from "./GetChoice.module.css";
 
-export default function useGetChoice(choice: Choice | "") {
+export default function GetChoice(choice: Choice | "") {
   switch (choice) {
     case "rock":
       return (
@@ -21,6 +21,12 @@ export default function useGetChoice(choice: Choice | "") {
       return (
         <div className={`${styles["circle"]} ${styles["scissors"]}`}>
           <img src="./src/assets/icon-scissors.svg" alt="scissors" />
+        </div>
+      );
+    case "":
+      return (
+        <div className={styles["empty"]}>
+          <div className={styles["loader"]}></div>
         </div>
       );
   }

@@ -1,0 +1,42 @@
+.triangle-container {
+    position: relative;
+    margin-top: 11em;
+}
+
+.circle {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    width: 250px;             
+    height: 250px; 
+    border-radius: 50%; 
+    cursor: pointer;   
+  }
+
+.circle img {
+    width: 60%;
+    height: 60%;
+}
+
+.paper {
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -50%);
+    border: 1.5em solid hsl(230, 89%, 62%);
+}
+
+.scissors {
+    top: 0;              
+    right: 0;          
+    transform: translate(50%, -50%);
+    border: 1.5em solid hsl(39, 89%, 49%)
+}
+
+.rock {
+    top: 100%;            
+    right: 50%;               
+    transform: translate(50%, -50%);
+    border: 1.5em solid hsl(349, 71%, 52%)
+}

@@ -10,7 +10,7 @@
 .score-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
     padding: 1em 3em;
     background: white;
     color: hsl(229, 64%, 46%);

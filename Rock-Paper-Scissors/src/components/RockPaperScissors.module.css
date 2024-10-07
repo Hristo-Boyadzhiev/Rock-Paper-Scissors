@@ -1,27 +1,7 @@
 .container {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    padding: 3em 2em 0.5em 0;
+    align-items: center;
+    padding-top: 3em;
     height: 100vh;
 }
-
-.main-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 11em;
-}
-
-.header-and-game-container {
-    display: flex;
-    flex-direction: column;
-    gap: 12em;
-}
-
-
-
-
-
-
-
