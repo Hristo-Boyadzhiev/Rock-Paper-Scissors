@@ -2,11 +2,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: white;
     width: 250px;             
     height: 250px; 
     border-radius: 50%; 
     cursor: pointer;   
+    background: white;
   }
 
 .circle img {
@@ -27,13 +27,13 @@
 }
 
 .empty {
-    background: hsl(237, 49%, 15%);
     display: flex;
     justify-content: center;
     align-items: center;
     width: 250px;             
     height: 250px; 
     border-radius: 50%; 
+    background: hsl(237, 49%, 15%);
 }
 
 .loader {
@@ -52,6 +52,38 @@
     33% { background-size: calc(100%/3) 0%, calc(100%/3) 100%, calc(100%/3) 100%; }
     50% { background-size: calc(100%/3) 100%, calc(100%/3) 0%, calc(100%/3) 100%; }
     66% { background-size: calc(100%/3) 100%, calc(100%/3) 100%, calc(100%/3) 0%; }
+}
+
+@media (max-width: 600px) {
+    .circle, .empty {
+        width: 200px;             
+        height: 200px; 
+    }
+}
+
+@media (max-width: 450px) {
+    .circle, .empty {
+        width: 150px;             
+        height: 150px; 
+    }
+
+    .paper, .scissors, .rock {
+        border-width: 0.5em;
+    }
+}
+
+@media (max-width: 370px) {
+    .circle, .empty {
+        width: 120px;             
+        height: 120px; 
+    }
+}
+
+@media (max-width: 300px) {
+    .circle, .empty {
+        width: 100px;             
+        height: 100px; 
+    }
 }
 
 

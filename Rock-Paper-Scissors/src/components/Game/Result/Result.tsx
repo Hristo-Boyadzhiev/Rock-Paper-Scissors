@@ -20,13 +20,19 @@ export default function Result() {
   return (
     <div className={styles["game-info"]}>
       <div className={styles["choice"]}>
-        <p>you picked</p>
+        <p className={styles["you-picked"]}>
+          <span>you </span>
+          <span>picked</span>
+        </p>
         {GetChoice(userChoice)}
       </div>
-      {showWinner && <Winner />}
+      {/* {showWinner && <Winner />} */}
 
       <div className={styles["choice"]}>
-        <p>computer picked</p>
+        <p className={styles["computer-picked"]}>
+          <span>computer </span>
+          <span>picked</span>
+        </p>
         {showComputerChoice ? GetChoice(computerChoice) : GetChoice("")}
       </div>
     </div>
