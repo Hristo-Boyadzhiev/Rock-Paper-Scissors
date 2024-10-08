@@ -5,8 +5,12 @@ export default function Header() {
   const { score } = useGameContext();
   return (
     <header className={styles["logo-and-result-container"]}>
-      <div>
-        <img src="./src/assets/logo.svg" alt="game-logo" />
+      <div className={styles["img-container"]}>
+        <img
+          src="./src/assets/logo.svg"
+          alt="game-logo"
+          className={styles["proba"]}
+        />
       </div>
       <div className={styles["score-container"]}>
         <p>Score</p>

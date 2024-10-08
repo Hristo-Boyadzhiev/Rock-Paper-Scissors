@@ -28,7 +28,7 @@ export default function RockPaperScissors() {
           rules
         </button>
       )}
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }

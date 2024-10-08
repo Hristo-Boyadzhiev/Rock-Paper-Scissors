@@ -1,5 +1,7 @@
 .logo-and-result-container {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
     gap: 20em;
     padding: 1em 1.5em;
     border: 3px solid hsl(217, 16%, 45%);
@@ -22,3 +24,55 @@
     font-weight: 700;
     color: hsl(229, 25%, 31%)
 }
+
+@media (max-width: 800px){
+    .logo-and-result-container{
+        gap: 15em
+    } 
+}
+
+@media (max-width: 650px){
+    .logo-and-result-container{
+        gap: 10em
+    } 
+}
+
+@media (max-width: 550px){
+    .logo-and-result-container{
+        gap: 5em
+    } 
+}
+
+@media (max-width: 500px){
+    .logo-and-result-container{
+        gap: 3em
+    } 
+}
+
+@media (max-width: 450px){
+    .logo-and-result-container{
+        gap: 2em
+    } 
+}
+
+@media (max-width: 400px) {
+    .logo-and-result-container{
+        gap: 0em
+    }
+    
+    .img-container {
+        width: 50%;
+    }    
+}
+
+@media (max-width: 370px) {
+    .logo-and-result-container{
+        gap: 0em;
+        margin: 0 0.5em;
+    }
+    
+    .img-container {
+        width: 40%;
+    }    
+}
+
