@@ -7,8 +7,12 @@ I changed the design of the application.
 ## Table of contents
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
+- [Screenshot](#screenshot)
+  - [Desktop version](#desktop-version)
+    - [Game field](#desktop-game-field)
+    - [Game rules](#desktop-game-rules)
+    - [Computer choice](#desktop-computer-choice)
+  - [Mobile version](#mobile-version)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -28,26 +32,28 @@ Responsive Design: The interface is optimized for different devices and screen s
 Interactive Gameplay: Users can choose between the three options — rock, paper, and scissors — and the game provides instant feedback on the result of each round.
 Easy Navigation: The clear interface and intuitive buttons make the game accessible and easy to play for all ages.
 
-### The challenge
-
-Users should be able to:
-
-- View the optimal layout for the game depending on their device's screen size
-- Play Rock, Paper, Scissors against the computer
-- Maintain the state of the score after refreshing the browser _(optional)_
-- **Bonus**: Play Rock, Paper, Scissors, Lizard, Spock against the computer _(optional)_
-
 ### Screenshot
 
-![](./screenshot.jpg)
+#### Desktop version
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
+##### Game field
+<a id="desktop-game-field"></a>
 
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
+![image](https://github.com/user-attachments/assets/a3ae5a45-c75f-44d8-a90d-8600754a1427)
 
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
+##### Game rules
+<a id="desktop-game-rules"></a>
 
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+![image](https://github.com/user-attachments/assets/06e428ad-9278-4f17-a8c2-6c449d034032)
+
+##### Computer choice
+<a id="desktop-computer-choice"></a>
+
+![image](https://github.com/user-attachments/assets/fa76d07d-c58d-4dd5-9d0e-f53c1e3de0b0)
+
+
+#### Mobile version
+
 
 ### Links
 
