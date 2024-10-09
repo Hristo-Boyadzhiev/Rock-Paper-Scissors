@@ -31,9 +31,11 @@ Rock, Paper, Scissors is a classic game, developed using React and TypeScript. T
 
 **Key Features:**
 
-Responsive Design: The interface is optimized for different devices and screen sizes, ensuring an excellent user experience on mobile phones, tablets, and desktop computers.
-Interactive Gameplay: Users can choose between the three options — rock, paper, and scissors — and the game provides instant feedback on the result of each round.
-Easy Navigation: The clear interface and intuitive buttons make the game accessible and easy to play for all ages.
+**Responsive Design:** The interface is optimized for different devices and screen sizes, ensuring an excellent user experience on mobile phones, tablets, and desktop computers.
+
+**Interactive Gameplay:** Users can choose between the three options — rock, paper, and scissors — and the game provides instant feedback on the result of each round.
+
+**Easy Navigation:** The clear interface and intuitive buttons make the game accessible and easy to play for all ages.
 
 ### Screenshots
 
