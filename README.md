@@ -35,7 +35,7 @@ Responsive Design: The interface is optimized for different devices and screen s
 Interactive Gameplay: Users can choose between the three options — rock, paper, and scissors — and the game provides instant feedback on the result of each round.
 Easy Navigation: The clear interface and intuitive buttons make the game accessible and easy to play for all ages.
 
-### Screenshot
+### Screenshots
 
 #### Desktop version
 
