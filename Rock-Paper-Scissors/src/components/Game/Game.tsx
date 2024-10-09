@@ -5,5 +5,5 @@ import Result from "./Result/Result";
 export default function Game() {
   const { userChoice } = useGameContext();
 
-  return userChoice === "" ? <GameField /> : <Result />;
+  return userChoice === null ? <GameField /> : <Result />;
 }

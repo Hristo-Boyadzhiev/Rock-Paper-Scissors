@@ -5,7 +5,7 @@ export default function Winner() {
   const { winner, handleNewGame, handleReset } = useGameContext();
 
   return (
-    <div className={styles["winner"]}>
+    <article className={styles["winner"]}>
       <h1 className={styles["header"]}>
         {winner === "draw"
           ? "draw"
@@ -21,6 +21,6 @@ export default function Winner() {
           reset
         </button>
       </div>
-    </div>
+    </article>
   );
 }

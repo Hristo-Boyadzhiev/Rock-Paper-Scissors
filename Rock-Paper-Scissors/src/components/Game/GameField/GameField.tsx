@@ -4,7 +4,7 @@ import styles from "./GameField.module.css";
 export default function GameField() {
   const { handleChoice } = useGameContext();
   return (
-    <div className={styles["triangle-container"]}>
+    <section className={styles["triangle-container"]}>
       <img src="./src/assets/bg-triangle.svg" alt="triangle" />
       <button
         className={`${styles["circle"]} ${styles["paper"]}`}
@@ -24,6 +24,6 @@ export default function GameField() {
       >
         <img src="./src/assets/icon-rock.svg" alt="rock" />
       </button>
-    </div>
+    </section>
   );
 }

@@ -1,7 +1,7 @@
 import { Choice } from "../../../../types/Choice";
 import styles from "./GetChoice.module.css";
 
-export default function GetChoice(choice: Choice | "") {
+export default function GetChoice(choice: Choice | null) {
   switch (choice) {
     case "rock":
       return (
@@ -23,11 +23,13 @@ export default function GetChoice(choice: Choice | "") {
           <img src="./src/assets/icon-scissors.svg" alt="scissors" />
         </div>
       );
-    case "":
+    case null:
       return (
-        <div className={styles["empty"]}>
+        <div className={styles["waiting"]}>
           <div className={styles["loader"]}></div>
         </div>
       );
+    default:
+      throw new Error("Invalid choice");
   }
 }

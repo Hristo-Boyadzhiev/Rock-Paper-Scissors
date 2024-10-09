@@ -16,5 +16,7 @@ export default function getWinner(
       return computerChoice === "rock" ? "user" : "computer";
     case "scissors":
       return computerChoice === "paper" ? "user" : "computer";
+    default:
+      throw new Error("Invalid user choice");
   }
 }

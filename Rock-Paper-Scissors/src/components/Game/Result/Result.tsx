@@ -20,26 +20,26 @@ export default function Result() {
   }, [computerChoice]);
 
   return (
-    <div className={styles["game-info"]}>
-      <div className={styles["choices"]}>
-        <div className={styles["choice"]}>
+    <section className={styles["game-info"]}>
+      <section className={styles["choices"]}>
+        <article className={styles["choice"]}>
           <p className={styles["you-picked"]}>
             <span>you </span>
             <span>picked</span>
           </p>
           {GetChoice(userChoice)}
-        </div>
+        </article>
 
         {!isSmallScreen && showWinner && <Winner />}
-        <div className={styles["choice"]}>
+        <article className={styles["choice"]}>
           <p className={styles["computer-picked"]}>
             <span>computer </span>
             <span>picked</span>
           </p>
-          {showComputerChoice ? GetChoice(computerChoice) : GetChoice("")}
-        </div>
-      </div>
+          {showComputerChoice ? GetChoice(computerChoice) : GetChoice(null)}
+        </article>
+      </section>
       {isSmallScreen && showWinner && <Winner />}
-    </div>
+    </section>
   );
 }

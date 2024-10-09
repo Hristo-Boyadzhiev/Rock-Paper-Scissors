@@ -5,16 +5,14 @@ export default function Header() {
   const { scoreUser, scoreComputer } = useGameContext();
   return (
     <header className={styles["logo-and-result-container"]}>
-      <div className={styles["img-container"]}>
-        <img
-          src="./src/assets/logo.svg"
-          alt="game-logo"
-          className={styles["proba"]}
-        />
-      </div>
-      <div className={styles["score-container"]}>
-        <p>Score</p>
-        <div className={styles["result"]}>
+      <section className={styles["img-container"]}>
+        <img src="./src/assets/logo.svg" alt="game-logo" />
+      </section>
+      <section className={styles["score-container"]}>
+        <article>
+          <p>Score</p>
+        </article>
+        <article className={styles["result"]}>
           <div>
             <p>You</p>
             <p>{scoreUser}</p>
@@ -23,8 +21,8 @@ export default function Header() {
             <p>Computer</p>
             <p>{scoreComputer}</p>
           </div>
-        </div>
-      </div>
+        </article>
+      </section>
     </header>
   );
 }

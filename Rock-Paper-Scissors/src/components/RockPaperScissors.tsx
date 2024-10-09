@@ -18,16 +18,17 @@ export default function RockPaperScissors() {
       >
         {showRules ? <Rules /> : <Game />}
       </main>
-
-      {showRules ? (
-        <button className={styles["rules"]} onClick={handleBack}>
-          back
-        </button>
-      ) : (
-        <button className={styles["rules"]} onClick={handleRules}>
-          rules
-        </button>
-      )}
+      <section>
+        {showRules ? (
+          <button className={styles["rules"]} onClick={handleBack}>
+            back
+          </button>
+        ) : (
+          <button className={styles["rules"]} onClick={handleRules}>
+            rules
+          </button>
+        )}
+      </section>
       <Footer />
     </div>
   );

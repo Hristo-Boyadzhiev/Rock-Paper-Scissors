@@ -1,1 +1,1 @@
-export type Winner = "user" | "computer" | "draw" | "";
+export type Winner = "user" | "computer" | "draw";
