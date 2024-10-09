@@ -40,12 +40,10 @@ Easy Navigation: The clear interface and intuitive buttons make the game accessi
 <a id="desktop-game-field"></a>
 
 ![image](https://github.com/user-attachments/assets/a3ae5a45-c75f-44d8-a90d-8600754a1427)
-
 ##### Game rules
 <a id="desktop-game-rules"></a>
 
 ![image](https://github.com/user-attachments/assets/06e428ad-9278-4f17-a8c2-6c449d034032)
-
 ##### Computer choice
 <a id="desktop-computer-choice"></a>
 
