@@ -14,8 +14,14 @@ I changed the design of the application.
     - [Computer choice](#desktop-computer-choice)
     - [User winner](#desktop-user-winner)
     - [Computer winner](#desktop-computer-winner)
-    - [draw](#desktop-draw)
+    - [Draw](#desktop-draw)
   - [Mobile version](#mobile-version)
+    - [Game field](#mobile-game-field)
+    - [Game rules](#mobile-game-rules)
+    - [Computer choice](#mobile-computer-choice)
+    - [User winner](#mobile-user-winner)
+    - [Computer winner](#mobile-computer-winner)
+    - [Draw](#mobile-draw)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -64,9 +70,34 @@ Easy Navigation: The clear interface and intuitive buttons make the game accessi
 
 ![image](https://github.com/user-attachments/assets/f9a6c9a5-fe2c-47f4-8d9b-bf68e24ed38f)
 
-
-
 #### Mobile version
+
+##### Game field
+<a id="mobile-game-field"></a>
+
+![image](https://github.com/user-attachments/assets/ffa9e8b1-9554-4eba-b307-85d3ba819b7d)
+##### Game rules
+<a id="mobile-game-rules"></a>
+
+![image](https://github.com/user-attachments/assets/76480838-bef7-4cf0-b082-7af12b4f2a14)
+##### Computer choice
+<a id="mobile-computer-choice"></a>
+
+![image](https://github.com/user-attachments/assets/0af9ec0e-998c-4ffa-8cb1-b95b52aeeb6d)
+##### User winner
+<a id="mobile-user-winner"></a>
+
+![image](https://github.com/user-attachments/assets/fbd5232a-1a51-48d7-9dd0-8722cb896d1a)
+##### Computer winner
+<a id="mobile-computer-winner"></a>
+
+![image](https://github.com/user-attachments/assets/0b141574-d950-46d2-8152-75fbffaccd4e)
+##### Draw
+<a id="mobile-draw"></a>
+
+![image](https://github.com/user-attachments/assets/cfd0b74f-acfb-4933-8d38-4d4116e2875d)
+
+
 
 
 ### Links
