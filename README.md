@@ -7,7 +7,7 @@ I changed the design of the application.
 ## Table of contents
 
 - [Overview](#overview)
-- [Screenshot](#screenshot)
+- [Screenshots](#screenshots)
   - [Desktop version](#desktop-version)
     - [Game field](#desktop-game-field)
     - [Game rules](#desktop-game-rules)
