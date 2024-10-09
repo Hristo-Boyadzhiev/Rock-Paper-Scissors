@@ -1,8 +1,14 @@
 .game-info {
     display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.choices {
+    display: flex;
     align-items: center;
     text-align: center;
-    gap: 10em;
+    gap: 5em;
 }
 
 .choice {
@@ -21,43 +27,43 @@
         align-items: center;
     }
 
-    .game-info {
+    .choices {
         gap: 5em
     }
 }
 
 @media (max-width: 650px){
-    .game-info {
+    .choices {
         gap: 3em
     }
 }
 
 @media (max-width: 600px){
-    .game-info {
+    .choices {
         gap: 7em
     }
 }
 
 @media (max-width: 550px){
-    .game-info {
+    .choices {
         gap: 4em
     }
 }
 
 @media (max-width: 500px){
-    .game-info {
+    .choices {
         gap: 2em
     }
 }
 
 @media (max-width: 450px){
-    .game-info {
+    .choices {
         gap: 3em
     }
 }
 
 @media (max-width: 370px){
-    .game-info {
+    .choices {
         gap: 2em
     }
 }
@@ -67,4 +73,3 @@
         font-size: 1.5em
     }
 }
-

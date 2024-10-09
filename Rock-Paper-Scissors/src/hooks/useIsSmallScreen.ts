@@ -1,22 +1,21 @@
 import { useState, useEffect } from "react";
 
-export default function useIsSmallScreen() {
-  const [isSmallScreen, setIsSmallScreen] = useState(window.innerWidth < 800);
+export default function useIsSmallScreen(screenSize: string): boolean {
+  const [isSmall, setIsSmall] = useState<boolean>(
+    () => window.matchMedia(screenSize).matches
+  );
 
   useEffect(() => {
-    const handleResize = () => {
-      const isSmall = window.innerWidth < 800;
-      if (isSmall !== isSmallScreen) {
-        setIsSmallScreen(isSmall);
-      }
-    };
+    const mediaQueryMatcher = window.matchMedia(screenSize);
 
-    window.addEventListener("resize", handleResize);
+    const handleMediaQueryChange = () => setIsSmall(mediaQueryMatcher.matches);
+
+    mediaQueryMatcher.addEventListener("change", handleMediaQueryChange);
 
     return () => {
-      window.removeEventListener("resize", handleResize);
+      mediaQueryMatcher.removeEventListener("change", handleMediaQueryChange);
     };
-  }, [isSmallScreen]);
+  }, [screenSize]);
 
-  return isSmallScreen;
+  return isSmall;
 }
