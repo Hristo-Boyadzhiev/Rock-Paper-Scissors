@@ -12,6 +12,9 @@ I changed the design of the application.
     - [Game field](#desktop-game-field)
     - [Game rules](#desktop-game-rules)
     - [Computer choice](#desktop-computer-choice)
+    - [User winner](#desktop-user-winner)
+    - [Computer winner](#desktop-computer-winner)
+    - [draw](#desktop-draw)
   - [Mobile version](#mobile-version)
   - [Links](#links)
 - [My process](#my-process)
@@ -48,6 +51,19 @@ Easy Navigation: The clear interface and intuitive buttons make the game accessi
 <a id="desktop-computer-choice"></a>
 
 ![image](https://github.com/user-attachments/assets/fa76d07d-c58d-4dd5-9d0e-f53c1e3de0b0)
+##### User winner
+<a id="desktop-user-winner"></a>
+
+![image](https://github.com/user-attachments/assets/de7a26ba-4d70-467b-93ea-4912ddcd1d0e)
+##### Computer winner
+<a id="desktop-computer-winner"></a>
+
+![image](https://github.com/user-attachments/assets/5a971a67-1cab-46e2-aa4b-d8936b5b96e3)
+##### Draw
+<a id="desktop-draw"></a>
+
+![image](https://github.com/user-attachments/assets/f9a6c9a5-fe2c-47f4-8d9b-bf68e24ed38f)
+
 
 
 #### Mobile version
