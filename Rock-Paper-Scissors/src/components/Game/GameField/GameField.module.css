@@ -40,47 +40,16 @@
     border: 1.5em solid hsl(349, 71%, 52%)
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1366px) {
     .circle {
-        width: 200px;             
-        height: 200px; 
+        width: 110px;             
+        height: 110px; 
     }
 
     .paper, .scissors, .rock {
-        border-width: 1.2em;
-    }
-}
-
-@media (max-width: 550px) {
-    .circle {
-        width: 150px;             
-        height: 150px; 
+        border-width: 0.8em;
     }
 
-    .paper, .scissors, .rock {
-        border-width: 1em;
-    }
-}
-
-@media (max-width: 500px) {
-    .triangle-container {
-        width: 80%;
-    }
-}
-
-@media (max-width: 450px) {
-    .triangle-container {
-        width: 70%;
-    }
-}
-
-@media (max-width: 400px) {
-    .triangle-container {
-        width: 60%;
-    }
-}
-
-@media (max-width: 370px) {
     .triangle-container {
         width: 55%;
     }

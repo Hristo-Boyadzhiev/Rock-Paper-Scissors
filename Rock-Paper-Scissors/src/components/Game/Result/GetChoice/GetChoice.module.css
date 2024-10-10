@@ -54,37 +54,13 @@
     66% { background-size: calc(100%/3) 100%, calc(100%/3) 100%, calc(100%/3) 0%; }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1366px) {
     .circle, .waiting {
-        width: 200px;             
-        height: 200px; 
-    }
-}
-
-@media (max-width: 450px) {
-    .circle, .waiting {
-        width: 150px;             
-        height: 150px; 
+        width: 110px;             
+        height: 110px; 
     }
 
     .paper, .scissors, .rock {
-        border-width: 0.5em;
+        border-width: 0.4em;
     }
 }
-
-@media (max-width: 370px) {
-    .circle, .waiting {
-        width: 120px;             
-        height: 120px; 
-    }
-}
-
-@media (max-width: 300px) {
-    .circle, .waiting {
-        width: 100px;             
-        height: 100px; 
-    }
-}
-
-
-
