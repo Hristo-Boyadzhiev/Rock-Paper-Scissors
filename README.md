@@ -95,12 +95,15 @@ When the user enters the application after a previous game or refreshes the page
 ##### User winner
 <a id="mobile-user-winner"></a>
 
+![image](https://github.com/user-attachments/assets/db95ca7a-2f96-4ba7-b57d-9b10e44e87ee)
 ##### Computer winner
 <a id="mobile-computer-winner"></a>
 
+![image](https://github.com/user-attachments/assets/df6cd85c-8fd7-4bbd-877a-b4cc4d1ddc7f)
 ##### Draw
 <a id="mobile-draw"></a>
-![Uploading image.png…]()
+
+![image](https://github.com/user-attachments/assets/2a130a13-ab08-46f0-993e-214b205b6c8b)
 
 ## Tech Stack
 
