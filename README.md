@@ -9,6 +9,7 @@ I changed the design of the application.
 - [Overview](#overview)
 - [Screenshots](#screenshots)
   - [Desktop version](#desktop-version)
+    - [Reset message](#desktop-reset-message)
     - [Game field](#desktop-game-field)
     - [Game rules](#desktop-game-rules)
     - [Computer choice](#desktop-computer-choice)
@@ -16,6 +17,7 @@ I changed the design of the application.
     - [Computer winner](#desktop-computer-winner)
     - [Draw](#desktop-draw)
   - [Mobile version](#mobile-version)
+    - [Reset message](#mobile-reset-message)
     - [Game field](#mobile-game-field)
     - [Game rules](#mobile-game-rules)
     - [Computer choice](#mobile-computer-choice)
@@ -41,6 +43,11 @@ Rock, Paper, Scissors is a classic game, developed using React and TypeScript. T
 
 #### Desktop version
 
+##### Reset message
+<a id="desktop-reset-message"></a>
+When the user enters the application after a previous game or refreshes the page, if the score is different from 0:0, a message appears asking if they would like to reset the game.
+
+![Uploading image.png…]()
 ##### Game field
 <a id="desktop-game-field"></a>
 
