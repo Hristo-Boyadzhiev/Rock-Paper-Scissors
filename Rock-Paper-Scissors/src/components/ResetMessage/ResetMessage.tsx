@@ -1,5 +1,5 @@
-import { useGameContext } from "../../../hooks/useGameContext";
-import Message from "../../Shared/Message/Message";
+import { useGameContext } from "../../hooks/useGameContext";
+import Message from "../Shared/Message/Message";
 
 export default function ResetMessage() {
   const { handleNewGame, handleReset } = useGameContext();

@@ -2,7 +2,7 @@ import { useGameContext } from "../../hooks/useGameContext";
 import styles from "./Header.module.css";
 
 export default function Header() {
-  const { scoreUser, scoreComputer } = useGameContext();
+  const { userScore, computerScore } = useGameContext();
   return (
     <header className={styles["logo-and-result-container"]}>
       <section className={styles["img-container"]}>
@@ -15,11 +15,11 @@ export default function Header() {
         <article className={styles["result"]}>
           <div>
             <p>You</p>
-            <p>{scoreUser}</p>
+            <p>{userScore}</p>
           </div>
           <div>
             <p>Computer</p>
-            <p>{scoreComputer}</p>
+            <p>{computerScore}</p>
           </div>
         </article>
       </section>

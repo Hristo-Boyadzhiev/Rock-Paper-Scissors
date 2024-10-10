@@ -4,7 +4,7 @@ import Game from "./Game/Game";
 import Header from "./Header/Header";
 import styles from "./RockPaperScissors.module.css";
 import Rules from "./Rules/Rules";
-import ResetMessage from "./Game/ResetMessage/ResetMessage";
+import ResetMessage from "./ResetMessage/ResetMessage";
 
 export default function RockPaperScissors() {
   const { showResetMessage, showRules, handleRules, handleBack } =
@@ -20,17 +20,19 @@ export default function RockPaperScissors() {
       >
         {showResetMessage ? <ResetMessage /> : showRules ? <Rules /> : <Game />}
       </main>
-      <section>
-        {showRules ? (
-          <button className={styles["rules"]} onClick={handleBack}>
-            back
-          </button>
-        ) : (
-          <button className={styles["rules"]} onClick={handleRules}>
-            rules
-          </button>
-        )}
-      </section>
+      {!showResetMessage && (
+        <section>
+          {showRules ? (
+            <button className={styles["rules"]} onClick={handleBack}>
+              back
+            </button>
+          ) : (
+            <button className={styles["rules"]} onClick={handleRules}>
+              rules
+            </button>
+          )}
+        </section>
+      )}
       <Footer />
     </div>
   );
