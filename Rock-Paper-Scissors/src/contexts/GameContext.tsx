@@ -52,10 +52,8 @@ export const GameProvider: React.FC<{ children: ReactNode }> = ({
   function handleChoice(choice: Choice) {
     setUserChoice(choice);
     const timer = setTimeout(() => {
-      setTimeout(() => {
-        setComputerChoice(getComputerChoice());
-      }, 0);
-    }, 3000);
+      setComputerChoice(getComputerChoice());
+    }, 1500);
 
     return () => clearTimeout(timer);
   }
