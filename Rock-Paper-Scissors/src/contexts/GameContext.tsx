@@ -30,8 +30,14 @@ export const GameProvider: React.FC<{ children: ReactNode }> = ({
     null
   );
   const [winner, setWinner] = React.useState<Winner | null>(null);
-  const [scoreUser, setScoreUser] = React.useState(0);
-  const [scoreComputer, setScoreComputer] = React.useState(0);
+  const [scoreUser, setScoreUser] = React.useState(() => {
+    const storedUserScore = localStorage.getItem("userScore");
+    return storedUserScore ? Number(storedUserScore) : 0;
+  });
+  const [scoreComputer, setScoreComputer] = React.useState(() => {
+    const storedComputerScore = localStorage.getItem("computerScore");
+    return storedComputerScore ? Number(storedComputerScore) : 0;
+  });
   const [showRules, setShowRules] = React.useState(false);
 
   React.useEffect(() => {
@@ -40,11 +46,15 @@ export const GameProvider: React.FC<{ children: ReactNode }> = ({
       setWinner(currentWinner);
 
       if (currentWinner === "user") {
-        setScoreUser((prevScore) => prevScore + 1);
+        const newScoreUser = scoreUser + 1;
+        localStorage.setItem("userScore", String(newScoreUser));
+        setScoreUser(newScoreUser);
       }
 
       if (currentWinner === "computer") {
-        setScoreComputer((prevScore) => prevScore + 1);
+        const newScoreComputer = scoreComputer + 1;
+        localStorage.setItem("computerScore", String(newScoreComputer));
+        setScoreComputer(newScoreComputer);
       }
     }
   }, [userChoice, computerChoice]);
@@ -70,6 +80,7 @@ export const GameProvider: React.FC<{ children: ReactNode }> = ({
     setWinner(null);
     setScoreUser(0);
     setScoreComputer(0);
+    localStorage.clear();
   }
 
   function handleRules() {
