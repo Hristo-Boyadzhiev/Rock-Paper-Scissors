@@ -1,33 +1,43 @@
 import { Choice } from "../../../../types/Choice";
+import Circle from "../../../Shared/Circle";
 import styles from "./GetChoice.module.css";
 
 export default function GetChoice(choice: Choice | null) {
   switch (choice) {
     case "rock":
       return (
-        <div className={`${styles["circle"]} ${styles["rock"]}`}>
+        <Circle
+          componentType={"div"}
+          className={`${styles["circle"]} ${styles["rock"]}`}
+        >
           <img src="./src/assets/icon-rock.svg" alt="rock" />
-        </div>
+        </Circle>
       );
 
     case "paper":
       return (
-        <div className={`${styles["circle"]} ${styles["paper"]}`}>
+        <Circle
+          componentType={"div"}
+          className={`${styles["circle"]} ${styles["paper"]}`}
+        >
           <img src="./src/assets/icon-paper.svg" alt="paper" />
-        </div>
+        </Circle>
       );
 
     case "scissors":
       return (
-        <div className={`${styles["circle"]} ${styles["scissors"]}`}>
+        <Circle
+          componentType={"div"}
+          className={`${styles["circle"]} ${styles["scissors"]}`}
+        >
           <img src="./src/assets/icon-scissors.svg" alt="scissors" />
-        </div>
+        </Circle>
       );
     case null:
       return (
-        <div className={styles["waiting"]}>
+        <Circle componentType={"div"} className={styles["waiting"]}>
           <div className={styles["loader"]}></div>
-        </div>
+        </Circle>
       );
     default:
       throw new Error("Invalid choice");
