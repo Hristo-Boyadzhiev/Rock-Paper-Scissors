@@ -79,7 +79,7 @@ When the user enters the application after a previous game or refreshes the page
 <a id="mobile-reset-message"></a>
 When the user enters the application after a previous game or refreshes the page, if the score is different from 0:0, a message appears asking if they would like to reset the game.
 
-![image](https://github.com/user-attachments/assets/1991c279-ae0a-4ab9-9d98-55840b8f4186)
+![image](https://github.com/user-attachments/assets/695459bb-91b2-490c-89e4-57d4eba3ac54)
 ##### Game field
 <a id="mobile-game-field"></a>
 
