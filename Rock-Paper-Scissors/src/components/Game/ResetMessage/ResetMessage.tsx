@@ -1,43 +1,27 @@
-import React from "react";
 import { useGameContext } from "../../../hooks/useGameContext";
-import GameField from "../GameField/GameField";
-import styles from "./ResetMessage.module.css";
+import Message from "../../Shared/Message/Message";
 
 export default function ResetMessage() {
-  const { handleNewGame, handleReset } = useGameContext();
-  const [showGameField, setShowGameField] = React.useState(true);
+  const { setShowResetMessage, handleNewGame, handleReset } = useGameContext();
 
   function handleResetGame() {
     handleReset();
-    setShowGameField(false);
+    setShowResetMessage(false);
   }
 
   function handleContinueGame() {
     handleNewGame();
-    setShowGameField(false);
+    setShowResetMessage(false);
   }
 
   return (
-    <>
-      {showGameField ? (
-        <article className={styles["reset-message"]}>
-          <header className={styles["reset-message-header"]}>
-            <h1>Do you want to start the game over?</h1>
-            <h3>This option will reset the current score.</h3>
-          </header>
-
-          <div className={styles["buttons"]}>
-            <button className={styles["button"]} onClick={handleResetGame}>
-              yes
-            </button>
-            <button className={styles["button"]} onClick={handleContinueGame}>
-              no
-            </button>
-          </div>
-        </article>
-      ) : (
-        <GameField />
-      )}
-    </>
+    <Message
+      title="Do you want to start the game over?"
+      message="This option will reset the current score."
+      leftButtonTitle="yes"
+      rightButtonTitle="no"
+      leftOnClick={handleResetGame}
+      rightOnClick={handleContinueGame}
+    />
   );
 }

@@ -1,11 +1,11 @@
-.reset-message {
+.message {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 1em;
 }
 
-.reset-message-header {
+.message-header {
     display: flex;
     flex-direction: column;
     gap: 0.5em;
