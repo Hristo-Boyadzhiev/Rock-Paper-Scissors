@@ -47,31 +47,31 @@ Rock, Paper, Scissors is a classic game, developed using React and TypeScript. T
 <a id="desktop-reset-message"></a>
 When the user enters the application after a previous game or refreshes the page, if the score is different from 0:0, a message appears asking if they would like to reset the game.
 
-![image](https://github.com/user-attachments/assets/255487ad-c39b-4a7a-b585-32ed9bc96cdf)
+![image](https://github.com/user-attachments/assets/c2a51e4a-80c8-44cd-9514-64ff3452cd09)
 ##### Game field
 <a id="desktop-game-field"></a>
 
-![image](https://github.com/user-attachments/assets/a3ae5a45-c75f-44d8-a90d-8600754a1427)
+![image](https://github.com/user-attachments/assets/26006c5d-7374-4fac-af53-2ab75f883da0)
 ##### Game rules
 <a id="desktop-game-rules"></a>
 
-![image](https://github.com/user-attachments/assets/06e428ad-9278-4f17-a8c2-6c449d034032)
+![image](https://github.com/user-attachments/assets/fefd4148-30f5-455f-80a2-851c059b960c)
 ##### Computer choice
 <a id="desktop-computer-choice"></a>
 
-![image](https://github.com/user-attachments/assets/fa76d07d-c58d-4dd5-9d0e-f53c1e3de0b0)
+![image](https://github.com/user-attachments/assets/64f15251-9951-4902-a97b-43b1c5bc2f28)
 ##### User winner
 <a id="desktop-user-winner"></a>
 
-![image](https://github.com/user-attachments/assets/de7a26ba-4d70-467b-93ea-4912ddcd1d0e)
+![image](https://github.com/user-attachments/assets/0d830b8d-d13f-45b5-b18f-2cf94d7ab09e)
 ##### Computer winner
 <a id="desktop-computer-winner"></a>
 
-![image](https://github.com/user-attachments/assets/5a971a67-1cab-46e2-aa4b-d8936b5b96e3)
+![image](https://github.com/user-attachments/assets/a60fae24-0c86-44f0-a195-93518f629922)
 ##### Draw
 <a id="desktop-draw"></a>
 
-![image](https://github.com/user-attachments/assets/f9a6c9a5-fe2c-47f4-8d9b-bf68e24ed38f)
+![image](https://github.com/user-attachments/assets/cb11737d-3fb7-4fe6-827a-3e824bd20dd7)
 
 #### Mobile version
 
@@ -79,31 +79,31 @@ When the user enters the application after a previous game or refreshes the page
 <a id="mobile-reset-message"></a>
 When the user enters the application after a previous game or refreshes the page, if the score is different from 0:0, a message appears asking if they would like to reset the game.
 
-![image](https://github.com/user-attachments/assets/e2190af4-f649-4854-96e0-bf2ace8fd932)
+![image](https://github.com/user-attachments/assets/08ab9938-fa37-4d93-b89f-3f4034539451)
 ##### Game field
 <a id="mobile-game-field"></a>
 
-![image](https://github.com/user-attachments/assets/c6a71fed-f317-4003-ac8e-f8b646ff4f07)
+![image](https://github.com/user-attachments/assets/1603f3fe-af52-4a61-bfab-f875ec63dcf5)
 ##### Game rules
 <a id="mobile-game-rules"></a>
 
-![image](https://github.com/user-attachments/assets/a6f6fb76-955b-4cad-8a63-3cae07bf860c)
+![image](https://github.com/user-attachments/assets/2757bf60-1066-48c6-bbfe-ce015e304aed)
 ##### Computer choice
 <a id="mobile-computer-choice"></a>
 
-![image](https://github.com/user-attachments/assets/9d82efc9-3c51-4b4e-9ece-32182694cc43)
+![image](https://github.com/user-attachments/assets/a0476716-2b52-412d-b94b-d64ddb474d8f)
 ##### User winner
 <a id="mobile-user-winner"></a>
 
-![image](https://github.com/user-attachments/assets/db95ca7a-2f96-4ba7-b57d-9b10e44e87ee)
+![image](https://github.com/user-attachments/assets/5d9f41a4-4bfe-4192-836a-6a1b0a1e3d02)
 ##### Computer winner
 <a id="mobile-computer-winner"></a>
 
-![image](https://github.com/user-attachments/assets/df6cd85c-8fd7-4bbd-877a-b4cc4d1ddc7f)
+![image](https://github.com/user-attachments/assets/fcfd00f9-b76a-4b9c-9415-a253a7dac2b7)
 ##### Draw
 <a id="mobile-draw"></a>
 
-![image](https://github.com/user-attachments/assets/2a130a13-ab08-46f0-993e-214b205b6c8b)
+![image](https://github.com/user-attachments/assets/12cf2c15-7b3a-4932-b26a-f231763dff3f)
 
 ## Tech Stack
 
