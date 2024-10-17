@@ -25,7 +25,7 @@ I changed the design of the application.
     - [Computer winner](#mobile-computer-winner)
     - [Draw](#mobile-draw)
 - [Tech Stack](#tech-stack)
-- - [License](#license)
+- [License](#license)
 - [Installation and Usage](#installation-and-usage)
 
 ## Overview
