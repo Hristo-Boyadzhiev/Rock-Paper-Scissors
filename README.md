@@ -40,7 +40,7 @@ Rock, Paper, Scissors is a classic game, developed using React and TypeScript. T
 
 - **Easy Navigation:** The clear interface and intuitive buttons make the game accessible and easy to play for all ages.
 
-### Screenshots
+## Screenshots
 
 #### Desktop version
 
